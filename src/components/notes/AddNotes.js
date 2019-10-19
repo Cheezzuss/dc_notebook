@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 import { createProject } from '../../store/actions/noteActions'
 import { Redirect } from 'react-router-dom'
 
-class CreateProject extends Component {
+class AddNotes extends Component {
   state = {
     title: '',
     content: ''
@@ -55,4 +55,4 @@ const mapDispatchToProps = dispatch => {
   }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(CreateProject)
+export default connect(mapStateToProps, mapDispatchToProps)(AddNotes)
