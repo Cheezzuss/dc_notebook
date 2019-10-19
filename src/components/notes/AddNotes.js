@@ -28,7 +28,7 @@ class AddNotes extends Component {
           <h5 className="grey-text text-darken-3">  <i class="medium material-icons">speaker_notes</i></h5>
           <div className="input-field">
             <input type="text" id='title' onChange={this.handleChange} />
-            <label htmlFor="title">Note</label>
+            <label htmlFor="title">Subject</label>
           </div>
           <div className="input-field">
             <textarea id="content" className="materialize-textarea" onChange={this.handleChange}></textarea>
