@@ -10,7 +10,7 @@ const Header = (props) => {
   const links = auth.uid ? <SignedInLinks profile={profile} /> : <SignedOutLinks />;
 
   return (
-    <nav className="nav-wrapper dark-orange darken-3">
+    <nav className="nav-wrapper transparent z-depth-5">
       <div className="container">
         <Link to='/' className="left brand-logo">  <i class="large material-icons">event_note</i>DC Notebook</Link>
         {links}

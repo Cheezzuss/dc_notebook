@@ -12,13 +12,13 @@ const ProjectDetails = (props) => {
     return (
       <div className="container section project-details">
         <div className="card z-depth-0">
-          <div className=" light-blue card-content">
+          <div className=" light-white card-content">
             <span className=" card-title">{project.title}</span>
             <p>{project.content}</p>
           </div>
-          <div className="card-action orange lighten-4 grey-text">
-            <div className="blue-text"> By - {project.authorFirstName} {project.authorLastName}</div>
-            <div className="blue-text">{moment(project.createdAt.toDate()).calendar()}</div>
+          <div className="card-action blue grey-text">
+            <div className="white-text"> By - {project.authorFirstName} {project.authorLastName}</div>
+            <div className="white-text">{moment(project.createdAt.toDate()).calendar()}</div>
           </div>
         </div>
       </div>

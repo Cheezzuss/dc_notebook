@@ -12,7 +12,7 @@ import { firestoreConnect } from 'react-redux-firebase'
 const  EventCalendar =({})=>{
 
     return (
-          <div className='cal'>
+          <div className='cal grey lighten-5 z-depth-5'>
           
           <FullCalendar 
             dateClick={this.handleDateClick} plugins={[ dayGridPlugin, interactionPlugin ]}
