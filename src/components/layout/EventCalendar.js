@@ -23,7 +23,9 @@ const  EventCalendar =({})=>{
                 { title: 'Meeting', date: '2019-10-08' },
                 { title: 'Final Meeting', date: '2019-10-17' },
                 { title: 'Today Present', date: '2019-10-19' },
-                { title: 'hello', date: '2019-10-19' }
+                { title: 'hello', date: '2019-10-19' },
+                { title: 'Meeting', date: '2019-10-19' },
+                { title: 'Conference', date: '2019-10-19' }
               ]}
 
           />
